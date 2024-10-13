@@ -105,7 +105,7 @@ startTimer = () => {
     if (timeLeft <= 0) {
       clearInterval(timer);
       localStorage.setItem("mostRecentScore", score);
-      return window.location.assign("/end.html");
+      return window.location.assign("/SpringTest2/end.html");
     }
   }, 1000);
 };
