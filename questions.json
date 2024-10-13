@@ -1,0 +1,899 @@
+[
+    {
+      "question": "¿Qué anotación se utiliza para definir una clase de configuración en Spring?",
+      "choice1": "@Component",
+      "choice2": "@Configuration",
+      "choice3": "@Service",
+      "choice4": "@Repository",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un controlador REST en Spring?",
+      "choice1": "@RestEndpoint",
+      "choice2": "@Controller",
+      "choice3": "@RestController",
+      "choice4": "@RestService",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir una clase de servicio en Spring?",
+      "choice1": "@Repository",
+      "choice2": "@Component",
+      "choice3": "@Service",
+      "choice4": "@Controller",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un repositorio en Spring?",
+      "choice1": "@Repository",
+      "choice2": "@Service",
+      "choice3": "@Component",
+      "choice4": "@Controller",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para inyectar una dependencia en Spring?",
+      "choice1": "@Autowired",
+      "choice2": "@Inject",
+      "choice3": "@Resource",
+      "choice4": "@Qualifier",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para manejar transacciones de base de datos?",
+      "choice1": "@Transactional",
+      "choice2": "@Transaction",
+      "choice3": "@Transact",
+      "choice4": "@DataBaseTransaction",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para activar la validación de objetos?",
+      "choice1": "@Validate",
+      "choice2": "@Valid",
+      "choice3": "@Validation",
+      "choice4": "@Check",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para marcar el campo de clave primaria en una entidad JPA?",
+      "choice1": "@PrimaryKey",
+      "choice2": "@Id",
+      "choice3": "@Key",
+      "choice4": "@Primary",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para especificar la estrategia de generación de claves primarias?",
+      "choice1": "@GenerateKey",
+      "choice2": "@GeneratedValue",
+      "choice3": "@KeyGenerator",
+      "choice4": "@PrimaryKeyGenerator",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para personalizar el mapeo de columnas de base de datos?",
+      "choice1": "@Column",
+      "choice2": "@Table",
+      "choice3": "@Entity",
+      "choice4": "@Mapping",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir una relación de uno a muchos entre entidades JPA?",
+      "choice1": "@OneToMany",
+      "choice2": "@ManyToOne",
+      "choice3": "@ManyToMany",
+      "choice4": "@OneToOne",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir una relación de muchos a uno entre entidades JPA?",
+      "choice1": "@OneToMany",
+      "choice2": "@ManyToOne",
+      "choice3": "@ManyToMany",
+      "choice4": "@OneToOne",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir una relación de muchos a muchos entre entidades JPA?",
+      "choice1": "@OneToMany",
+      "choice2": "@ManyToOne",
+      "choice3": "@ManyToMany",
+      "choice4": "@OneToOne",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para habilitar la seguridad web de Spring?",
+      "choice1": "@EnableWebMvc",
+      "choice2": "@EnableSecurity",
+      "choice3": "@EnableWebSecurity",
+      "choice4": "@EnableWebSocket",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para habilitar repositorios JPA?",
+      "choice1": "@EnableJpaRepositories",
+      "choice2": "@EnableJpa",
+      "choice3": "@EnableRepositories",
+      "choice4": "@EnableJPA",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para habilitar la gestión de transacciones?",
+      "choice1": "@EnableTransaction",
+      "choice2": "@EnableTransactionManagement",
+      "choice3": "@Transactional",
+      "choice4": "@Transaction",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para pruebas de integración en Spring?",
+      "choice1": "@SpringBootTest",
+      "choice2": "@Test",
+      "choice3": "@IntegrationTest",
+      "choice4": "@SpringTest",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para crear objetos mock en pruebas?",
+      "choice1": "@Mock",
+      "choice2": "@MockBean",
+      "choice3": "@MockObject",
+      "choice4": "@TestMock",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para habilitar el logging con SLF4J?",
+      "choice1": "@Log",
+      "choice2": "@Slf4j",
+      "choice3": "@Logger",
+      "choice4": "@Logging",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para excluir propiedades de la serialización JSON?",
+      "choice1": "@JsonIgnore",
+      "choice2": "@JsonExclude",
+      "choice3": "@NoSerialize",
+      "choice4": "@Exclude",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para configurar CORS en controladores específicos?",
+      "choice1": "@CrossOrigins",
+      "choice2": "@CrossOrigin",
+      "choice3": "@Cors",
+      "choice4": "@EnableCors",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear solicitudes GET a un método de controlador?",
+      "choice1": "@RequestGet",
+      "choice2": "@GetMapping",
+      "choice3": "@GetRequest",
+      "choice4": "@RequestMapping(method = RequestMethod.GET)",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear solicitudes POST a un método de controlador?",
+      "choice1": "@RequestPost",
+      "choice2": "@PostMapping",
+      "choice3": "@PostRequest",
+      "choice4": "@RequestMapping(method = RequestMethod.POST)",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear solicitudes PUT a un método de controlador?",
+      "choice1": "@PutRequest",
+      "choice2": "@PutMapping",
+      "choice3": "@RequestPut",
+      "choice4": "@RequestMapping(method = RequestMethod.PUT)",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear solicitudes DELETE a un método de controlador?",
+      "choice1": "@RequestDelete",
+      "choice2": "@DeleteMapping",
+      "choice3": "@DeleteRequest",
+      "choice4": "@RequestMapping(method = RequestMethod.DELETE)",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir reglas de autorización en métodos?",
+      "choice1": "@Authorize",
+      "choice2": "@PreAuthorize",
+      "choice3": "@Secured",
+      "choice4": "@RoleAllowed",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para especificar roles requeridos para acceder a un método?",
+      "choice1": "@Authorize",
+      "choice2": "@PreAuthorize",
+      "choice3": "@Secured",
+      "choice4": "@RoleAllowed",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para validar que un campo no esté vacío?",
+      "choice1": "@NotNull",
+      "choice2": "@NotEmpty",
+      "choice3": "@NotBlank",
+      "choice4": "@NoEmptyOrBlank",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para validar que un campo tenga un tamaño específico?",
+      "choice1": "@Size",
+      "choice2": "@Length",
+      "choice3": "@Range",
+      "choice4": "@MaxSize",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para validar que un campo sea una dirección de correo electrónico válida?",
+      "choice1": "@Email",
+      "choice2": "@Mail",
+      "choice3": "@EmailAddress",
+      "choice4": "@ValidEmail",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para deshabilitar CSRF en la configuración de seguridad de Spring?",
+      "choice1": "http.disableCsrf()",
+      "choice2": "http.csrf().enable()",
+      "choice3": "http.csrf().disable()",
+      "choice4": "http.enableCsrf()",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué clase se utiliza para cifrar contraseñas en Spring Security?",
+      "choice1": "StandardPasswordEncoder",
+      "choice2": "PasswordEncoder",
+      "choice3": "Pbkdf2PasswordEncoder",
+      "choice4": "BCryptPasswordEncoder",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué método se utiliza para agregar un filtro antes de UsernamePasswordAuthenticationFilter en Spring Security?",
+      "choice1": "http.addFilterAt()",
+      "choice2": "http.addFilterAfter()",
+      "choice3": "http.addFilter()",
+      "choice4": "http.addFilterBefore()",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un punto final de WebSocket en Spring?",
+      "choice1": "@WebSocket",
+      "choice2": "@EnableWebSocket",
+      "choice3": "@WebSocketEndpoint",
+      "choice4": "@EnableWebSocketMessageBroker",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué método se utiliza para registrar un punto final de STOMP en Spring?",
+      "choice1": "registry.addEndpoint()",
+      "choice2": "registry.registerEndpoint()",
+      "choice3": "registry.addStompEndpoint()",
+      "choice4": "registry.registerStompEndpoint()",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método se utiliza para configurar el prefijo de destino de la aplicación en WebSocket?",
+      "choice1": "config.setDestinationPrefixes()",
+      "choice2": "config.setAppDestinationPrefixes()",
+      "choice3": "config.setApplicationDestinationPrefixes()",
+      "choice4": "config.setAppPrefixes()",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja mensajes en WebSocket?",
+      "choice1": "@MessageHandler",
+      "choice2": "@MessageMapping",
+      "choice3": "@WebSocketMapping",
+      "choice4": "@WebSocketHandler",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método se utiliza para enviar un mensaje a un destino en WebSocket?",
+      "choice1": "messagingTemplate.convert()",
+      "choice2": "messagingTemplate.send()",
+      "choice3": "messagingTemplate.convertAndSend()",
+      "choice4": "messagingTemplate.sendMessage()",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear solicitudes GET a un método de controlador?",
+      "choice1": "@RequestMapping",
+      "choice2": "@GetMapping",
+      "choice3": "@GetRequest",
+      "choice4": "@RequestGet",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear solicitudes PUT a un método de controlador?",
+      "choice1": "@PutRequest",
+      "choice2": "@RequestMapping",
+      "choice3": "@PutMapping",
+      "choice4": "@RequestPut",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear solicitudes DELETE a un método de controlador?",
+      "choice1": "@RequestDelete",
+      "choice2": "@RequestMapping",
+      "choice3": "@DeleteRequest",
+      "choice4": "@DeleteMapping",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+      "choice1": "@RequestPatch",
+      "choice2": "@RequestMapping",
+      "choice3": "@PatchRequest",
+      "choice4": "@PatchMapping",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+      "choice1": "@RequestOptions",
+      "choice2": "@OptionsMapping",
+      "choice3": "@RequestMapping(method = RequestMethod.OPTIONS)",
+      "choice4": "@OptionsRequest",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+      "choice1": "@RequestHead",
+      "choice2": "@HeadMapping",
+      "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
+      "choice4": "@HeadRequest",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+      "choice1": "@RequestTrace",
+      "choice2": "@TraceMapping",
+      "choice3": "@RequestMapping(method = RequestMethod.TRACE)",
+      "choice4": "@TraceRequest",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+      "choice1": "@ConnectRequest",
+      "choice2": "@ConnectMapping",
+      "choice3": "@RequestConnect",
+      "choice4": "@RequestMapping(method = RequestMethod.CONNECT)",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+      "choice1": "@RequestPatch",
+      "choice2": "@RequestMapping",
+      "choice3": "@PatchRequest",
+      "choice4": "@PatchMapping",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes OPTIONS en Spring?",
+      "choice1": "@OptionsRequest",
+      "choice2": "@OptionsMapping",
+      "choice3": "@RequestOptions",
+      "choice4": "@RequestMapping(method = RequestMethod.OPTIONS)",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes HEAD en Spring?",
+      "choice1": "@RequestHead",
+      "choice2": "@HeadMapping",
+      "choice3": "@RequestMapping(method = RequestMethod.HEAD)",
+      "choice4": "@HeadRequest",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes TRACE en Spring?",
+      "choice1": "@TraceRequest",
+      "choice2": "@TraceMapping",
+      "choice3": "@RequestTrace",
+      "choice4": "@RequestMapping(method = RequestMethod.TRACE)",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes CONNECT en Spring?",
+      "choice1": "@ConnectMapping",
+      "choice2": "@RequestMapping(method = RequestMethod.CONNECT)",
+      "choice3": "@RequestConnect",
+      "choice4": "@ConnectRequest",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un método que maneja solicitudes PATCH en Spring?",
+      "choice1": "@PatchMapping",
+      "choice2": "@RequestMapping",
+      "choice3": "@PatchRequest",
+      "choice4": "@RequestPatch",
+      "answer": 1
+    },
+   {
+      "question": "¿Qué anotación se utiliza para iniciar una aplicación Spring Boot?",
+      "choice1": "@SpringBootApplication",
+      "choice2": "@SpringApplication",
+      "choice3": "@EnableAutoConfiguration",
+      "choice4": "@ComponentScan",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase se utiliza para ejecutar una aplicación Spring Boot?",
+      "choice1": "SpringApplication",
+      "choice2": "SpringBootApplication",
+      "choice3": "ApplicationContext",
+      "choice4": "BeanFactory",
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la dependencia principal para crear una aplicación web con Spring Boot?",
+      "choice1": "spring-boot-starter-web",
+      "choice2": "spring-boot-starter-data-jpa",
+      "choice3": "spring-boot-starter-security",
+      "choice4": "spring-boot-starter-test",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para configurar un controlador que maneja solicitudes web?",
+      "choice1": "@RestController",
+      "choice2": "@Controller",
+      "choice3": "@Service",
+      "choice4": "@Repository",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para mapear una solicitud GET a un método de controlador?",
+      "choice1": "@PostMapping",
+      "choice2": "@GetMapping",
+      "choice3": "@PutMapping",
+      "choice4": "@DeleteMapping",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase se utiliza para acceder a las propiedades de la aplicación?",
+      "choice1": "Environment",
+      "choice2": "Properties",
+      "choice3": "ApplicationContext",
+      "choice4": "ConfigurationProperties",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué interfaz se utiliza para definir un repositorio JPA?",
+      "choice1": "JpaRepository",
+      "choice2": "CrudRepository",
+      "choice3": "PagingAndSortingRepository",
+      "choice4": "Todas las anteriores",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para habilitar la configuración automática en Spring Boot?",
+      "choice1": "@EnableAutoConfiguration",
+      "choice2": "@SpringBootApplication",
+      "choice3": "@Configuration",
+      "choice4": "@ComponentScan",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para escanear componentes en Spring Boot?",
+      "choice1": "@EnableAutoConfiguration",
+      "choice2": "@SpringBootApplication",
+      "choice3": "@Configuration",
+      "choice4": "@ComponentScan",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué dependencia se utiliza para integrar Spring Boot con una base de datos H2?",
+      "choice1": "h2",
+      "choice2": "mysql",
+      "choice3": "postgresql",
+      "choice4": "mongodb",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase se utiliza para configurar la seguridad web en Spring Boot?",
+      "choice1": "WebSecurityConfigurerAdapter",
+      "choice2": "SecurityConfig",
+      "choice3": "HttpSecurity",
+      "choice4": "AuthenticationManager",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para habilitar Actuator en Spring Boot?",
+      "choice1": "@EnableActuator",
+      "choice2": "@EnableMetrics",
+      "choice3": "@EnableHealthIndicator",
+      "choice4": "@EnableManagement",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué puerto utiliza Spring Boot por defecto?",
+      "choice1": "8080",
+      "choice2": "80",
+      "choice3": "443",
+      "choice4": "3000",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué tecnología se utiliza para la inyección de dependencias en Spring Boot?",
+      "choice1": "Inyección de constructor",
+      "choice2": "Inyección de setter",
+      "choice3": "Inyección de campo",
+      "choice4": "Todas las anteriores",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un bean en Spring Boot?",
+      "choice1": "@Bean",
+      "choice2": "@Component",
+      "choice3": "@Service",
+      "choice4": "@Repository",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es un 'starter' en Spring Boot?",
+      "choice1": "Un conjunto de dependencias que facilitan la integración con otras tecnologías.",
+      "choice2": "Una clase que inicia la aplicación.",
+      "choice3": "Un archivo de configuración.",
+      "choice4": "Un tipo de anotación.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué herramienta se utiliza para construir una aplicación Spring Boot?",
+      "choice1": "Maven",
+      "choice2": "Gradle",
+      "choice3": "Ant",
+      "choice4": "Maven o Gradle",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué clase se utiliza para manejar errores en Spring Boot?",
+      "choice1": "@ControllerAdvice",
+      "choice2": "@ExceptionHandler",
+      "choice3": "ResponseEntityExceptionHandler",
+      "choice4": "Todas las anteriores",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para ejecutar pruebas unitarias en Spring Boot?",
+      "choice1": "@SpringBootTest",
+      "choice2": "@Test",
+      "choice3": "@RunWith(SpringRunner.class)",
+      "choice4": "@ExtendWith(SpringExtension.class)",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase se utiliza para acceder a la base de datos en Spring Boot?",
+      "choice1": "JdbcTemplate",
+      "choice2": "JpaTemplate",
+      "choice3": "HibernateTemplate",
+      "choice4": "Todas las anteriores",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para habilitar la seguridad web en Spring Security?",
+      "choice1": "@EnableSecurity",
+      "choice2": "@EnableWebSecurity",
+      "choice3": "@EnableWebSecurityConfiguration",
+      "choice4": "@SecurityConfiguration",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase se utiliza para configurar la seguridad HTTP en Spring Security?",
+      "choice1": "HttpSecurity",
+      "choice2": "WebSecurity",
+      "choice3": "SecurityConfigurer",
+      "choice4": "SecurityFilterChain",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué interfaz se utiliza para definir un servicio de autenticación personalizado?",
+      "choice1": "UserDetailsService",
+      "choice2": "AuthenticationService",
+      "choice3": "UserService",
+      "choice4": "SecurityService",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para proteger un método con una expresión SpEL?",
+      "choice1": "@PreAuthorize",
+      "choice2": "@Secured",
+      "choice3": "@PostAuthorize",
+      "choice4": "@PreFilter",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase se utiliza para cifrar contraseñas en Spring Security?",
+      "choice1": "PasswordEncoder",
+      "choice2": "BCryptPasswordEncoder",
+      "choice3": "SCryptPasswordEncoder",
+      "choice4": "Todas las anteriores",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para marcar una clase como entidad JPA?",
+      "choice1": "@Entity",
+      "choice2": "@Table",
+      "choice3": "@Repository",
+      "choice4": "@Component",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para marcar un campo como la clave primaria de una entidad JPA?",
+      "choice1": "@Id",
+      "choice2": "@PrimaryKey",
+      "choice3": "@GeneratedValue",
+      "choice4": "@Column",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir una relación de uno a muchos en JPA?",
+      "choice1": "@OneToMany",
+      "choice2": "@ManyToOne",
+      "choice3": "@ManyToMany",
+      "choice4": "@OneToOne",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir una relación de muchos a uno en JPA?",
+      "choice1": "@OneToMany",
+      "choice2": "@ManyToOne",
+      "choice3": "@ManyToMany",
+      "choice4": "@OneToOne",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir una relación de muchos a muchos en JPA?",
+      "choice1": "@OneToMany",
+      "choice2": "@ManyToOne",
+      "choice3": "@ManyToMany",
+      "choice4": "@OneToOne",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué interfaz se utiliza para definir un repositorio JPA?",
+      "choice1": "JpaRepository",
+      "choice2": "CrudRepository",
+      "choice3": "PagingAndSortingRepository",
+      "choice4": "Todas las anteriores",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué anotación se utiliza para ejecutar una consulta JPQL personalizada?",
+      "choice1": "@Query",
+      "choice2": "@NamedQuery",
+      "choice3": "@NamedNativeQuery",
+      "choice4": "@SQL",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método se utiliza para habilitar la gestión de transacciones en Spring?",
+      "choice1": "@EnableTransactionManagement",
+      "choice2": "@Transactional",
+      "choice3": "@TransactionConfiguration",
+      "choice4": "@EnableTransaction",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para marcar un método como transaccional?",
+      "choice1": "@EnableTransactionManagement",
+      "choice2": "@Transactional",
+      "choice3": "@TransactionConfiguration",
+      "choice4": "@EnableTransaction",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase se utiliza para obtener el usuario autenticado en Spring Security?",
+      "choice1": "SecurityContextHolder",
+      "choice2": "AuthenticationManager",
+      "choice3": "Authentication",
+      "choice4": "UserDetails",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué interfaz se utiliza para personalizar la lógica de autenticación?",
+      "choice1": "AuthenticationProvider",
+      "choice2": "AuthenticationManager",
+      "choice3": "UserDetailsService",
+      "choice4": "SecurityFilterChain",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase se utiliza para manejar excepciones de seguridad?",
+      "choice1": "AccessDeniedException",
+      "choice2": "AuthenticationException",
+      "choice3": "SecurityException",
+      "choice4": "Todas las anteriores",
+      "answer": 4
+    },
+    {
+      "question": "¿Qué método se utiliza para deshabilitar la seguridad para un endpoint específico?",
+      "choice1": "http.authorizeRequests().antMatchers(\"/endpoint\").permitAll()",
+      "choice2": "http.authorizeRequests().antMatchers(\"/endpoint\").authenticated()",
+      "choice3": "http.csrf().disable()",
+      "choice4": "http.cors().disable()",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué estrategia de generación de claves primarias utiliza un valor autoincrementado?",
+      "choice1": "GenerationType.AUTO",
+      "choice2": "GenerationType.IDENTITY",
+      "choice3": "GenerationType.SEQUENCE",
+      "choice4": "GenerationType.TABLE",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué anotación se utiliza para definir un interceptor de Spring MVC?",
+      "choice1": "@HandlerInterceptor",
+      "choice2": "@ControllerInterceptor",
+      "choice3": "@WebInterceptor",
+      "choice4": "@MVCInterceptor",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué son los JSON Web Tokens (JWT)?",
+      "choice1": "Un formato estándar abierto para la creación de tokens de acceso.",
+      "choice2": "Un lenguaje de programación para aplicaciones web.",
+      "choice3": "Un protocolo de comunicación para la web.",
+      "choice4": "Un framework de desarrollo web.",
+      "answer": 1
+    },
+    {
+      "question": "¿Cuáles son las partes principales de un JWT?",
+      "choice1": "Cabecera, cuerpo y firma.",
+      "choice2": "Nombre de usuario, contraseña y token.",
+      "choice3": "Clave pública, clave privada y certificado.",
+      "choice4": "Solicitud, respuesta y sesión.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué algoritmo se utiliza comúnmente para firmar JWT?",
+      "choice1": "RSA",
+      "choice2": "HMAC",
+      "choice3": "AES",
+      "choice4": "SHA-256",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es CORS?",
+      "choice1": "Un mecanismo para permitir solicitudes de origen cruzado.",
+      "choice2": "Un protocolo de seguridad para la web.",
+      "choice3": "Un lenguaje de marcado para la web.",
+      "choice4": "Un framework de desarrollo web.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué cabecera HTTP se utiliza para indicar los orígenes permitidos en CORS?",
+      "choice1": "Access-Control-Allow-Origin",
+      "choice2": "Origin",
+      "choice3": "Authorization",
+      "choice4": "Content-Type",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método HTTP se utiliza para realizar una solicitud CORS de preflight?",
+      "choice1": "GET",
+      "choice2": "POST",
+      "choice3": "OPTIONS",
+      "choice4": "PUT",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué son los WebSockets?",
+      "choice1": "Un protocolo de comunicación bidireccional en tiempo real.",
+      "choice2": "Un lenguaje de programación para aplicaciones web.",
+      "choice3": "Un formato de datos para la web.",
+      "choice4": "Un framework de desarrollo web.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué protocolo se utiliza para la comunicación en WebSockets?",
+      "choice1": "HTTP",
+      "choice2": "HTTPS",
+      "choice3": "WS",
+      "choice4": "WSS",
+      "answer": 3
+    },
+    {
+      "question": "¿Qué es STOMP?",
+      "choice1": "Un protocolo de mensajería simple para WebSockets.",
+      "choice2": "Un lenguaje de programación para aplicaciones web.",
+      "choice3": "Un formato de datos para la web.",
+      "choice4": "Un framework de desarrollo web.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es Mockito?",
+      "choice1": "Un framework para crear objetos mock en pruebas unitarias.",
+      "choice2": "Un lenguaje de programación para aplicaciones web.",
+      "choice3": "Un protocolo de comunicación para la web.",
+      "choice4": "Un framework de desarrollo web.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué anotación se utiliza para crear un objeto mock en Mockito?",
+      "choice1": "@Mock",
+      "choice2": "@MockBean",
+      "choice3": "@Spy",
+      "choice4": "@InjectMocks",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método se utiliza para definir el comportamiento de un objeto mock en Mockito?",
+      "choice1": "when()",
+      "choice2": "verify()",
+      "choice3": "then()",
+      "choice4": "given()",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método se utiliza para verificar que un método se haya llamado en Mockito?",
+      "choice1": "when()",
+      "choice2": "verify()",
+      "choice3": "then()",
+      "choice4": "given()",
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es un 'stub' en Mockito?",
+      "choice1": "Un objeto mock con comportamiento predefinido.",
+      "choice2": "Una clase que se utiliza para probar otra clase.",
+      "choice3": "Un método que se utiliza para verificar el comportamiento de un objeto.",
+      "choice4": "Una anotación que se utiliza para crear objetos mock.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es un 'mock' en Mockito?",
+      "choice1": "Un objeto simulado que se utiliza en pruebas unitarias.",
+      "choice2": "Una clase que se utiliza para probar otra clase.",
+      "choice3": "Un método que se utiliza para verificar el comportamiento de un objeto.",
+      "choice4": "Una anotación que se utiliza para crear objetos mock.",
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué se utiliza la cabecera 'Authorization' en JWT?",
+      "choice1": "Para enviar el token JWT al servidor.",
+      "choice2": "Para indicar el tipo de autenticación.",
+      "choice3": "Para enviar las credenciales del usuario.",
+      "choice4": "Para indicar el origen de la solicitud.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es una solicitud CORS de 'preflight'?",
+      "choice1": "Una solicitud OPTIONS que se envía antes de la solicitud principal.",
+      "choice2": "Una solicitud GET que se envía para obtener información sobre el recurso.",
+      "choice3": "Una solicitud POST que se envía para crear un nuevo recurso.",
+      "choice4": "Una solicitud PUT que se envía para actualizar un recurso.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es un 'handshake' en WebSockets?",
+      "choice1": "El proceso de establecer una conexión WebSocket.",
+      "choice2": "El proceso de enviar un mensaje a través de WebSocket.",
+      "choice3": "El proceso de cerrar una conexión WebSocket.",
+      "choice4": "El proceso de autenticar un usuario en WebSocket.",
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es un 'frame' en WebSockets?",
+      "choice1": "Un paquete de datos que se envía a través de WebSocket.",
+      "choice2": "Una unidad de tiempo en la comunicación WebSocket.",
+      "choice3": "Un tipo de mensaje en WebSocket.",
+      "choice4": "Un error en la comunicación WebSocket.",
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué se utiliza la anotación @Spy en Mockito?",
+      "choice1": "Para crear un objeto espía que envuelve un objeto real.",
+      "choice2": "Para crear un objeto mock que simula el comportamiento de un objeto real.",
+      "choice3": "Para verificar que un método se haya llamado en un objeto mock.",
+      "choice4": "Para definir el comportamiento de un objeto mock.",
+      "answer": 1
+    }
+  ]
+  
